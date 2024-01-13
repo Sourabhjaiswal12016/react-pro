@@ -11,7 +11,10 @@ import { Link } from "react-scroll";
 const Discover = () => {
   return (
     <div className="discover-container">
-      <h1 className="discover-heading">Discover Our Range of Services</h1>
+      <div className="discover-heading">
+        <h1>Discover Our Range of Services</h1>
+      </div>
+      {/* <h1 className="discover-heading"></h1> */}
       <div className="cards">
         <div className="card-box">
           <Link
@@ -90,7 +93,9 @@ const Discover = () => {
           </Link>
         </div>
 
-        <div className="Read-More">Read More</div>
+        <div className="Read-More">
+          <h1 className="read-more-text">READ MORE</h1>
+        </div>
       </div>
     </div>
   );

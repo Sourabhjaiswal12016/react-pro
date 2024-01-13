@@ -1,6 +1,6 @@
 import React from "react";
 import cardOne from "../Discover/assets/card1.png";
-import "../AllCards/CardOne.css";
+import "./CardOne.css";
 import CardTwo from "./CardTwo.js";
 const CardOne = () => {
   return (

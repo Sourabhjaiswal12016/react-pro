@@ -4,7 +4,7 @@ import Cardfour from "../Discover/assets/card4.png";
 const CardFour = () => {
   return (
     <section id="fourth-card">
-      <div className="card-one-conatainer">
+      <div className="card-four-conatainer">
         <div className="left-one">
           {/* <img src={Cardfour} className="card-one-img" /> */}
           <div className="Heading-Text">SPORTS INFRASTRUCTURE & MANAGEMENT</div>
@@ -24,7 +24,7 @@ const CardFour = () => {
           </div>
         </div>
         <div className="right-one">
-          <img src={Cardfour} className="card-one-img" />
+          <img src={Cardfour} className="card-four-img" />
         </div>
       </div>
     </section>

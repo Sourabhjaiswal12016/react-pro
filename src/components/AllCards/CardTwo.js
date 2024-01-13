@@ -4,7 +4,7 @@ import Cardtwo from "../Discover/assets/card2.png";
 const CardTwo = () => {
   return (
     <section id="second-card">
-      <div className="card-one-conatainer">
+      <div className="card-two-conatainer">
         <div className="left-one">
           {/* <img src={Cardtwo} className="card-one-img" /> */}
           <div className="Heading-Text">SPORTS INFRASTRUCTURE & MANAGEMENT</div>
@@ -24,7 +24,7 @@ const CardTwo = () => {
           </div>
         </div>
         <div className="right-one">
-          <img src={Cardtwo} className="card-one-img" />
+          <img src={Cardtwo} className="card-two-img" />
         </div>
       </div>
     </section>
