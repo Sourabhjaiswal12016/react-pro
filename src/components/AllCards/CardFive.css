@@ -1,0 +1,43 @@
+
+.card-one-conatainer{
+    
+    height: 100vh;
+    max-width: 60vw;
+    display: flex;
+    
+    gap: 100px;
+    margin-bottom: 2rem;
+    margin: auto;
+    margin-left: 15.5rem;
+    margin-top: 50px;
+    
+}
+.card-one-img{
+    margin-top: 20px;
+    height: 380px;
+    width: 380px;
+}
+.right-one{
+    display: flex;
+    flex-direction: column;
+}
+.Heading-Text{
+    font-size: 30px;
+    display: flex;
+    text-align: start;
+    margin-bottom: 15px;
+    
+}
+.Description{
+    display: flex;
+    text-wrap: wrap;
+    text-align: start;
+    letter-spacing: 0.2px;
+}
+.ReachOut{
+    padding: 9px;
+    border-radius: 25px;
+    background-color: rgb(49, 75, 49);
+    color: #fff;
+    margin-top: 20px;
+}
